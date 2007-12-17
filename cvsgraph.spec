@@ -13,7 +13,6 @@ URL:		http://www.akhphd.au.dk/~bertho/cvsgraph
 BuildRequires:	libgd-devel
 BuildRequires:	flex
 BuildRequires:	bison
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 CvsGraph is a utility to make a graphical representation of all revisions
