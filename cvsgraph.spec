@@ -1,6 +1,6 @@
 %define name	cvsgraph
-%define version	1.6.1
-%define release	%mkrel 2
+%define version	1.7.0
+%define release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -26,7 +26,7 @@ of this graph code. So, it was time to write one.
 chmod 755 contrib/automatic_documentation/*.sh
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
@@ -44,8 +44,8 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc ChangeLog LICENSE README
-%doc contrib/*.php3
+%doc ChangeLog COPYING AUTHORS NEWS README INSTALL
+%doc contrib/*.php
 %doc contrib/automatic_documentation
 %config(noreplace) %{_sysconfdir}/%{name}.conf
 %{_bindir}/%{name}
