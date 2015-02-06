@@ -1,6 +1,6 @@
 %define name	cvsgraph
 %define version	1.7.0
-%define release	%mkrel 4
+%define release	5
 
 Name:		%{name}
 Version:	%{version}
