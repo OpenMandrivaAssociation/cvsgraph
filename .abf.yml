@@ -1,2 +1,4 @@
+removed_sources:
+  cvsgraph-1.7.0.tar.bz2: a5308db0c951edf08e276ae5fb24d386412524f2
 sources:
-  "cvsgraph-1.7.0.tar.bz2": a5308db0c951edf08e276ae5fb24d386412524f2
+  cvsgraph-1.7.0.tar.gz: 952c35381ba8db39d05f1a4e504e9bc8e43a7beb
