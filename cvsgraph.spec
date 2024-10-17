@@ -6,7 +6,7 @@ Summary:	Create graphs of branches and revisions for files in a CVS repository
 License:	GPL
 Group:		System/Servers
 Source:		http://www.akhphd.au.dk/~bertho/cvsgraph/release/%{name}-%{version}.tar.gz
-URL:		http://www.akhphd.au.dk/~bertho/cvsgraph
+URL:		https://www.akhphd.au.dk/~bertho/cvsgraph
 BuildRequires:	libgd-devel
 BuildRequires:	flex
 BuildRequires:	bison
